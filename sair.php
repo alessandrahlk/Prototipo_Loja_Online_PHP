@@ -1,4 +1,4 @@
-<!--Projeto 2 - PHP / Nomes: Alessandra e Mike-->
+<!--Projeto 2 - PHP / Nome: Alessandra-->
 <?php
 		//Removendo dados da sessão
 		@session_start();

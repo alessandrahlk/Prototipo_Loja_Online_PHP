@@ -1,4 +1,4 @@
-<!--Projeto 2 - PHP / Nomes: Alessandra e Mike-->
+<!--Projeto 2 - PHP / Nome: Alessandra-->
 <?php
 	include_once("settings/setting.php");
 	@session_start();
@@ -81,7 +81,7 @@
 		<div id="Fim"><p>
 			<a href="Fale.php">Fale Conosco</a> /
 			<a href="sobre.php">Sobre</a> /
-			Autores: Alessandra e Mike,
+			Autora: Alessandra Harumi,
 			04/06/2017.
 			</p>
 		</div>

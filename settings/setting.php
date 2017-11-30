@@ -1,4 +1,3 @@
-<!--Projeto 2 - PHP / Nomes: Alessandra e Mike-->
 <?php
 
 	//Dados do servidor
@@ -9,6 +8,7 @@
 
 	//Efetuando a conexão
 	$conecta = mysqli_connect($host, $login, $senha, $banco) or print (mysql_error());
+	mysqli_set_charset($conecta,'utf8');
 	//mysql_select_db($banco, $conecta) or print(mysql_query());
 
 
