@@ -1,0 +1,126 @@
+/*Projeto 2 - PHP / Nomes: Alessandra e Mike*/
+	#Tudo {
+		width: 836px;
+		margin: 0 auto;
+		border-width: 3px;
+		padding:5px;
+
+		border-width: 2px;
+		border-style: dashed;
+		border-color: #0000CC;}
+
+	
+	#Topo{
+		height:100px;
+		width: 830px;
+		background-color:#6495ED;
+		color:white;
+		font-size: 30pt;
+		text-align: center;
+		font-family: lucida handwriting;
+		
+		padding-top:40px;
+		
+		border-width: 3px;
+		border-style: solid;
+		border-color: white;}
+
+	#Busca{
+		height:30px;
+		width: 830px;
+		background-color:white;
+		color:black;
+		font-size: 12pt;
+		text-align: center;
+		font-family: Calibri;
+
+		border-width: 3px;
+		border-style: solid;
+		border-color: white;
+
+		}
+
+
+
+	#Esquerda{
+		height:1200px;
+		width: 200px;
+		padding:5px;
+		background-color:#4169E1;
+		color:white;
+		font-size: 12pt;
+		float:left;
+		font-family: Calibri;
+		
+		border-width: 3px;
+		border-style: solid;
+		border-color: white;
+		}
+
+	#Meio{
+		height:1200px;
+		width: 604px;
+		padding:5px;
+		background-color:#6495ED;
+		color:white;
+		font-size: 12pt;
+		float:left;
+		font-family: Calibri;
+		
+		border-width: 3px;
+		border-style: solid;
+		border-color: white;
+		overflow: auto;
+		}
+	
+
+	#Fim{
+		height:50px;
+		width: 830px;
+		background-color:#6495ED;
+		color:white;
+		font-size: 12pt;
+		text-align: center;
+		clear: both;
+		font-family: Calibri;
+		
+		border-width: 3px;
+		border-style: solid;
+		border-color: white;
+
+		}
+
+	p{font-size:12pt;color:white;}
+	h1{font-size:15pt;color:white;font-weight: bold;text-align:center;}
+	
+		@media screen and (max-width: 960px) {
+		#Tudo{width:636px;}
+		#Topo{width:630px;}
+		#Busca{width:530px;visibility:hidden;}
+		#Esquerda{width:198px;}
+		#Meio{width:400px;}
+		#Fim{width:630px;}
+	}
+	
+	@media screen and (max-width: 500px) {
+		#Tudo{width:536px;}
+		#Topo{width:530px;}
+		#Busca{width:530px;visibility:hidden;}
+		#Esquerda{width:170px;}
+		#Meio{width:328px;}
+		#Fim{width:530px;}
+		
+	}
+	
+	a:link, a:visited {
+    color: white;
+	text-decoration:none;
+	text-transform: capitalize;
+}
+
+a:hover, a:active {
+    color: white;
+	text-decoration:underline;
+	font-weight: bold;
+	font-style="text-transform: capitalize";
+}
