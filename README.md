@@ -1,4 +1,4 @@
-# prototipo_loja_online
+# Prototipo_Loja_Online_PHP
 Protótipo de uma loja online desenvolvido na matéria de Programação Web da UTFPR utilizando PHP e SQL.
 
 Objetivo:
